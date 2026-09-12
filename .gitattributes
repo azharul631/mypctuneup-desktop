@@ -1,0 +1,10 @@
+# Generated on 2026-11-10
+# Text file normalization
+# This file is used to override language statistics
+*.bat text eol=crlf
+public/*.html linguist-vendored
+*.min.css linguist-generated
+
+* text=auto eol=lf
+*.ts linguist-detectable
+yarn.lock linguist-generated
